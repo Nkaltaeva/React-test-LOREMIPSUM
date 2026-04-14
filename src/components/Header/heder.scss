@@ -1,0 +1,124 @@
+.header {
+    position: fixed;
+    z-index: 1000;
+    background-color: #10101DE5;
+    width: 100%;
+    height: 50px;
+    padding: 15px 0;
+    @media (min-width: 640px) {
+        height: 80px;
+        padding: 19px 0;
+    }
+    @media (min-width: 1200px) {
+        height: 100px;
+        padding: 33px 0;
+    }
+
+    &-mobile-menu {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        background-image: url(../../img/icon/icon_header/icons_mobile_menu.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 12px;
+        height: 12px;
+        &:hover {
+            opacity: 0.7;
+        }
+
+        @media (min-width: 640px) {
+            width: 20px;
+            height: 25px;
+        }
+        @media (min-width: 900px) {
+            display: none;
+        }
+         
+    }
+    &-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-nav-logo {
+        position: relative;
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        @media (min-width: 640px) {
+            font-size: 28px;
+        }
+    }
+    &-nav-menu {
+        position: relative;
+        display: none;
+        @media (min-width: 900px) {
+            display: flex;
+            gap: 25px;
+            justify-content: right;
+        }
+        @media (min-width: 1200px) {
+            gap: 40px;
+            justify-content: right;
+        }
+        &.menu-open {
+            position: absolute;
+            display: block;
+            color: #fff;
+            background:  #272733e3;
+            backdrop-filter: blur(10px);
+            padding: 30px 20px;
+            text-align: center;
+            top: 50px;
+            width: 80%;
+            line-height: 30px;
+            font-size: 30px;
+            @media (min-width: 640px) {
+                font-size: 24px;
+                line-height: 40px;
+                text-align: right;
+                right: 10%;
+                font-size: 24px;
+                width: 200px;
+                border-radius: 0 0 6px 6px;
+                top: 80px;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                background-image: url(../../img/icon/icon_header/mobile_close.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 15px;
+                height: 15px;
+                top: 5%;
+                right: 5%;
+                opacity: 0.6;
+                cursor: pointer;
+            }
+        }
+    }
+    &-nav-menu-li p {
+        position: relative;
+        cursor: pointer;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        transition: color 0.3s;
+        &:hover {
+            color: #3498db;
+        }
+        @media (min-width: 640px) {
+            font-size: 16px;
+        }
+        @media (min-width: 900px) {
+            font-size: 13px;
+        }
+    }
+    span {
+        color: #3498db;
+    }
+}

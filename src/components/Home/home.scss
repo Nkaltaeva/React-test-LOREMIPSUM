@@ -1,0 +1,165 @@
+.banner {
+    &-background {
+    position: absolute;
+    width: 100%;
+    background-image: url(../../img/background/background_heder_banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1250px;
+    height: 850px;
+    opacity: 0.8;
+    padding-top: 30px;
+        @media (min-width: 640px) {
+            height: 850px;
+            opacity: 1;
+            background-position: right;
+            padding-top: 90px;
+        }
+        @media (min-width: 900px) {
+            height: 780px;
+        }
+        @media (min-width: 1200px) {
+            height: 780px;
+            background-position: center;
+        }
+        }
+        &-content {
+            position: relative;
+            padding-top: 120px;
+            color: #000000;
+            span {
+                color: #3498db;
+            }
+        }
+    &-title {
+        position: relative;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+        color: #ffffff;
+        text-shadow: #ffffff 0 0 20px;
+        @media (min-width: 640px) {
+            font-size: 42px;
+            letter-spacing: 0px;
+            line-height: 50px;
+            text-align: left;
+            text-shadow: none;
+            color: #000000;
+        }
+        @media (min-width: 900px) {
+            text-shadow: none;
+        }
+        @media (min-width: 1200px) {
+            font-size: 46px;
+            letter-spacing: -0.5px;
+            line-height: 60px;
+        }
+    }
+    &-text {
+        position: relative;
+        padding-top: 60px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        color: #ffffff;
+        text-align: center;
+        width: 100%;
+        text-shadow: #ffffff 0 0 20px;
+        @media (min-width: 640px)  {
+            text-align: left;
+            padding-top: 80px;
+            color: #000000;
+        }
+        @media (min-width: 900px) {
+            text-shadow: none;
+        }
+    }
+    &-list {
+        position: relative;
+        padding-top: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.5px;
+        text-shadow: #ffffff 0 0 20px;
+        color: #ffffff;
+        @media (min-width: 640px)  {
+            padding-top: 10px;
+            color: #000000;
+        }
+        @media (min-width: 900px) {
+            text-shadow: none;
+        }
+    }
+    &-btn {
+        position: relative;
+        padding-top: 40px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        gap: 20px;
+        @media (min-width: 400px) {
+            padding-top: 100px;
+        }
+        @media (min-width: 600px) {
+            padding-top: 120px;
+        }
+        @media (min-width: 940px) {
+            padding-top: 80px;
+        }
+        & button {
+            width: 250px;
+            height: 50px;
+            padding: 13px 33px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            @media (min-width: 640px) {
+                width: 183px;
+                height: 43px;
+                font-size: 13px;
+            }
+        }
+        @media (min-width: 640px) {
+  
+            width: 396px;
+            display: flex;
+            gap: 30px;
+        }
+    }
+    &-btn-primary {
+        background: #3498db;
+        color: #fff;
+        border: 1px solid #fff;
+        box-shadow: 0 4px 15px rgba(52, 152, 219, 0.5);
+        &:hover {
+            background: #3498db;
+            transform: translateY(-2px);
+        }
+    }
+    &-btn-secondary{
+        background: #FFFFFF;
+        color: #2c3e50;
+        border: 1px solid #6F6D7B;
+        margin-top: 30px;
+        &:hover {
+            color: #fff;
+            background: #3498db;
+            border: 1px solid #fff;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+            transform: translateY(-2px);
+        }
+         @media (min-width: 640px) {
+            margin-top: 0;
+         }
+    }
+    
+}
