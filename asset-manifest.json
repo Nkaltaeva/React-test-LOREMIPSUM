@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-test-LOREMIPSUM/static/css/main.de30b860.css",
+    "main.js": "/React-test-LOREMIPSUM/static/js/main.2bf7da84.js",
+    "static/media/background_heder_banner.png": "/React-test-LOREMIPSUM/static/media/background_heder_banner.2150edee82f82dc5134f.png",
+    "static/media/background_form_order.png": "/React-test-LOREMIPSUM/static/media/background_form_order.ae46a377caaf1e41745f.png",
+    "static/media/qiwi_wallet.svg": "/React-test-LOREMIPSUM/static/media/qiwi_wallet.b15a939d82d9f4741b61add381b3f170.svg",
+    "static/media/file.svg": "/React-test-LOREMIPSUM/static/media/file.72a56f8fffde85f6e855.svg",
+    "static/media/vk.svg": "/React-test-LOREMIPSUM/static/media/vk.2c9de2fb59b15f5e248045c105f0c6ab.svg",
+    "static/media/web_money.svg": "/React-test-LOREMIPSUM/static/media/web_money.5cbb3f4ab82c8b0d15b200456dce3cee.svg",
+    "static/media/save_file.svg": "/React-test-LOREMIPSUM/static/media/save_file.36b70e11e4d006767dcc.svg",
+    "static/media/percent.svg": "/React-test-LOREMIPSUM/static/media/percent.7d5d88716be3c2e142d9.svg",
+    "static/media/email.svg": "/React-test-LOREMIPSUM/static/media/email.d61c3fd2b1b13f894ea0a78b97918a72.svg",
+    "static/media/message.svg": "/React-test-LOREMIPSUM/static/media/message.30d5c1eba81a830b2f71.svg",
+    "static/media/money.svg": "/React-test-LOREMIPSUM/static/media/money.33b642653ce86fc0c30b.svg",
+    "static/media/mobile_close.svg": "/React-test-LOREMIPSUM/static/media/mobile_close.ef4ba258e48fe5b58913.svg",
+    "static/media/yandex_money.svg": "/React-test-LOREMIPSUM/static/media/yandex_money.764461ffcc9b0eac6c908f46265f6b1b.svg",
+    "static/media/search.svg": "/React-test-LOREMIPSUM/static/media/search.50ea3d7539a517e372e7.svg",
+    "index.html": "/React-test-LOREMIPSUM/index.html",
+    "static/media/icons_mobile_menu.svg": "/React-test-LOREMIPSUM/static/media/icons_mobile_menu.d2e20b4f1998fd639803.svg",
+    "main.de30b860.css.map": "/React-test-LOREMIPSUM/static/css/main.de30b860.css.map",
+    "main.2bf7da84.js.map": "/React-test-LOREMIPSUM/static/js/main.2bf7da84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de30b860.css",
+    "static/js/main.2bf7da84.js"
+  ]
+}
