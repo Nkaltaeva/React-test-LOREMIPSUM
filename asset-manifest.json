@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-test-LOREMIPSUM/static/css/main.18efd2a5.css",
+    "main.css": "/React-test-LOREMIPSUM/static/css/main.dfbe915b.css",
     "main.js": "/React-test-LOREMIPSUM/static/js/main.2bf7da84.js",
     "static/media/background_heder_banner.png": "/React-test-LOREMIPSUM/static/media/background_heder_banner.2150edee82f82dc5134f.png",
     "static/media/background_form_order.png": "/React-test-LOREMIPSUM/static/media/background_form_order.ae46a377caaf1e41745f.png",
@@ -18,11 +18,11 @@
     "static/media/search.svg": "/React-test-LOREMIPSUM/static/media/search.50ea3d7539a517e372e7.svg",
     "index.html": "/React-test-LOREMIPSUM/index.html",
     "static/media/icons_mobile_menu.svg": "/React-test-LOREMIPSUM/static/media/icons_mobile_menu.d2e20b4f1998fd639803.svg",
-    "main.18efd2a5.css.map": "/React-test-LOREMIPSUM/static/css/main.18efd2a5.css.map",
+    "main.dfbe915b.css.map": "/React-test-LOREMIPSUM/static/css/main.dfbe915b.css.map",
     "main.2bf7da84.js.map": "/React-test-LOREMIPSUM/static/js/main.2bf7da84.js.map"
   },
   "entrypoints": [
-    "static/css/main.18efd2a5.css",
+    "static/css/main.dfbe915b.css",
     "static/js/main.2bf7da84.js"
   ]
 }
